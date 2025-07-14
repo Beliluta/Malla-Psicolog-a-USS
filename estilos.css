@@ -1,1 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f6;
+  color: #333;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  color: #e91e63;
+}
+#malla-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.curso {
+  border: 2px solid #e91e63;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #ffe4ec;
+  position: relative;
+}
+.curso.aprobado {
+  background-color: #e91e63;
+  color: white;
+}
+.curso button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: white;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.curso.aprobado button {
+  background: white;
+  color: #e91e63;
+}
 
